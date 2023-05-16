@@ -1,0 +1,432 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    /* transition: all 1s; */
+    transition-property: all;
+    transition-duration: 0.6s;
+    font-weight: 600;
+}
+
+body {
+    height: auto;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --main-color: rgb(222, 230, 0);
+    --second-color: rgb(143, 153, 0);
+}
+
+span {
+    color: var(--main-color);
+}
+
+.ohio {
+    color: var(--second-color);
+}
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(12, 12, 12, 0.747);
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+.winter {
+    height: 100vh;
+    background-image: url(../image/michael-bennett-1178638-unsplash-mod-ID-d8f513e2-f3f6-404d-bd94-53fd79d7e5d0.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.intro {
+    position: absolute;
+    top: 60%;
+    left: 12.5%;
+    transform: translate(0, -50%);
+    display: flex;
+    flex-direction: column;
+}
+
+.intro .animate__fadeInUpBig {
+    font-size: 80px;
+    color: white;
+}
+
+#bttn {
+    max-width: 186px;
+    height: 46px;
+    border-radius: 30px;
+    list-style: none;
+    text-decoration: none;
+    background: none;
+    border: 2px solid var(--main-color);
+    background-color: var(--main-color);
+    margin-top: 20px;
+}
+
+#bttn a {
+    text-decoration: none;
+    color: black;
+    font-size: small;
+
+
+}
+
+#bttn:hover {
+    background-color: white;
+    border: 2x solid var(--main-color)
+}
+
+.super {
+    background-color: white;
+}
+
+.ke {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.koda {
+    width: 40%;
+    margin: 20px 0 20px 0;
+}
+
+#h1 {
+    text-align: left;
+}
+
+.h3 {
+    margin-bottom: 10x;
+}
+
+ul {
+    text-align: center;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+li a {
+    font-size: 14x;
+    color: rgb(77, 79, 80);
+    text-decoration: none;
+    margin-right: 65px;
+
+}
+
+.compass {
+    margin: 120px;
+    text-align: center;
+}
+
+
+
+.comp {
+    color: var(--main-color);
+
+    margin: auto;
+
+}
+
+.comp i {
+    max-width: 100px;
+    height: 100px;
+    margin: 20px;
+
+}
+
+.slash {
+    font-size: 16x;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin: 10px;
+    color: rgb(77, 79, 80);
+
+}
+
+.out {
+    font-size: 42px;
+    font-weight: 600;
+
+    margin: 40px;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(77, 79, 80);
+    text-align: left;
+    max-width: 700px;
+    margin: auto;
+}
+
+.head {
+    padding: 120px 40px 40px 40px;
+    background-color: rgb(34, 35, 34);
+}
+
+.slash-two {
+    text-align: center;
+    color: rgb(162, 161, 160);
+    font-size: 16px;
+    font-weight: 400;
+    margin: 10px;
+
+}
+
+.things {
+    text-align: center;
+    color: white;
+    font-size: 42px;
+    font-weight: 600;
+
+}
+
+.fllex {
+    background-color: rgb(34, 35, 34);
+
+}
+
+.flex {
+    width: 85%;
+    margin: auto;
+    padding: 40px 40px 120px 40px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#me {
+    width: 28.333333%;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    min-height: 255px;
+    overflow: hidden;
+}
+
+.icon {
+    color: var(--main-color);
+    margin: 10px;
+}
+
+.header {
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    margin: 10px;
+
+}
+
+.p {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(162, 161, 160);
+    max-width: 305px;
+    margin: auto;
+
+}
+
+.learn {
+    width: 186px;
+    height: 46px;
+    border-radius: 30px;
+    list-style: none;
+    text-decoration: none;
+    background: none;
+    border: 2px solid rgb(34, 35, 34);
+    background-color: rgb(34, 35, 34);
+    margin-top: 20px;
+}
+
+.learn a {
+    text-decoration: none;
+    color: var(--main-color);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 400;
+
+
+}
+
+.learn:hover {
+    background-color: var(--main-color);
+    border: 2x solid var(--main-color);
+}
+
+.learn:hover a {
+    color: black;
+
+}
+
+#me:hover {
+    background-color: white;
+}
+
+#me:hover.icon {
+    color: var(--second-color);
+}
+
+#me:hover .p {
+    color: black;
+}
+
+#me:hover .header {
+    color: black;
+}
+
+#me:hover .learn {
+    background-color: rgb(32, 152, 209);
+    border: 3px solid rgb(25, 132, 182);
+}
+
+#me:hover .learn a {
+    color: black;
+}
+
+.hill {
+    padding: 100px 40px 100px 40px;
+    background-image: url(../image/hi.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 580px;
+    position: relative;
+
+}
+
+.hills {
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 12.5%;
+    transform: translate(0, -50%);
+    display: flex;
+    flex-direction: column;
+}
+
+.h3 {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 10px;
+}
+
+.picture {
+    padding: 40px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.pict {
+    width: 24.5%;
+    height: 250px;
+    overflow: hidden;
+}
+
+.pict img {
+    height: 100%;
+    width: 100%;
+
+}
+
+.two {
+    width: 90%;
+    padding: 100px 40px 140px 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.ten {
+    vertical-align: top;
+    width: 40%;
+    height: 400px;
+}
+
+.slash-three {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    color: rgb(77, 79, 80);
+}
+
+.story {
+    font-size: 42px;
+    font-weight: 600;
+
+}
+
+
+.section h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.section p {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(77, 79, 80);
+    margin-bottom: 39px;
+}
+
+.footer {
+    padding: 120px 40px;
+    background-color: rgb(34, 35, 34);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footers {
+    width: 30%;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footers img {
+    width: 100%;
+    height: 100%;
+    width: 30%;
+}
+
+.footers ul li {
+    width: 30%;
+    margin: auto;
+}
+
+.footers ul li a {
+    text-align: center;
+    color: white;
+
+}
+
+.footers i {
+    color: white;
+}
+.footers ul li  :hover{
+    color:var(--main-color);
+}
+#moh{
+    color:var(--main-color);
+}
